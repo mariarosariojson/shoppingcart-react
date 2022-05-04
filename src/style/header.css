@@ -58,6 +58,12 @@
   font-size: small;
 }
 
+.shoppingbag:hover,
+.headerIconAdmin:hover,
+.headerIconHeart:hover {
+  color: rgb(125, 125, 125);
+}
+
 .cart-sidebar {
   font-size: 1.5rem;
   color: rgb(46, 45, 45);

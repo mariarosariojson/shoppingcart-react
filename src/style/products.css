@@ -78,6 +78,15 @@
   padding: 0px 0px 0px 10px;
 }
 
+.checkout_btn:hover,
+.details_btn:hover {
+  color: rgb(125, 125, 125);
+}
+
+.like_btn:hover {
+  opacity: 0.8;
+}
+
 .details_btn {
   font-size: 1.7rem;
   font-weight: 550;
