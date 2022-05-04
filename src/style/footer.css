@@ -14,12 +14,13 @@
   display: flex;
   gap: 20px;
   font-size: 50px;
-}
-.social a {
   color: white;
 }
-.social a:hover {
+
+.footer-fbicon:hover,
+.footer-instaicon:hover {
   color: rgb(247, 115, 115);
+  cursor: pointer;
 }
 
 .about {

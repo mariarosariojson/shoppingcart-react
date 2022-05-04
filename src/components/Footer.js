@@ -16,12 +16,8 @@ function Footer() {
       <div className="contact">
         <h4>Follow us</h4>
         <div className="social">
-          <a href="#">
-            <FaFacebook />
-          </a>
-          <a href="#" className="footer-icon">
-            <FaInstagram />
-          </a>
+          <FaFacebook className="footer-fbicon" />
+          <FaInstagram className="footer-instaicon" />
         </div>
       </div>
       <div>
