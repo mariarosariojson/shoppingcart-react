@@ -1,0 +1,68 @@
+.navbar {
+  background-color: rgb(240, 240, 240);
+  padding: 15px 0px 15px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  width: 100%;
+  text-align: left;
+  padding-left: 50px;
+  justify-content: flex-start;
+}
+
+.nav-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+.nav-3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 50px;
+  position: relative;
+  width: 60%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #47484a;
+}
+
+.navbar a:hover {
+  color: rgb(125, 125, 125);
+}
+
+.shoppingbag,
+.cartNum,
+.headerIconAdmin,
+.headerIconHeart {
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+.cartNum {
+  font-size: small;
+}
+
+.cart-sidebar {
+  font-size: 1.5rem;
+  color: rgb(46, 45, 45);
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+}

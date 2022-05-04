@@ -1,0 +1,27 @@
+.footer-container {
+  height: 13rem;
+  margin-top: 200px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  gap: 12rem;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  font-size: 50px;
+}
+.social a {
+  color: white;
+}
+.social a:hover {
+  color: rgb(247, 115, 115);
+}
+
+.about {
+  width: 20%;
+}

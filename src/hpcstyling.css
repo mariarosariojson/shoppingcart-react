@@ -1,0 +1,21 @@
+.productCard {
+  margin: 10px;
+  background-color: rgb(249, 249, 249);
+  width: 260px;
+  height: 330px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 0px 5px rgb(181, 181, 181);
+}
+
+.productcardPrice {
+  font-weight: 500;
+}
+
+.addtoCart {
+  color: antiquewhite;
+  font-weight: 600;
+  background-color: rgb(48, 48, 43);
+  padding: 5px 15px 5px 15px;
+  border: none;
+}

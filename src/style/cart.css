@@ -1,0 +1,126 @@
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.cart-img {
+  width: 90px;
+  object-fit: contain;
+  display: flex;
+}
+
+.cart-openSidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 200%;
+  transition: 500ms;
+  transform: translateX(100%);
+  background-color: rgb(75, 71, 71);
+  opacity: 95%;
+  width: 280px;
+  height:100vh;
+  color: white;
+  padding: 50px 5px 30px 30px;
+  overflow: scroll;
+}
+
+.cart-openSidebar.open {
+  transform: translateX(0);
+  height: 100%;
+}
+
+.emptyShoppingBag {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cartHeader {
+  width: 100%;
+  text-align: center;
+  color: beige;
+}
+
+.cartProducts {
+  color: beige;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  overflow: scroll;
+  width: 87%;
+  justify-items: flex-start;
+  cursor: pointer;
+}
+
+.plusBtn, .minusBtn, .delete-singleitem, .resetCount {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  color: white;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.resetCount {
+  border: none;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  padding-left: 10px;
+  color: rgb(240, 123, 123);
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.resetCount:hover {
+  color: grey;
+}
+.count {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.closeSidebar {
+  display: flex;
+  position: absolute;
+  font-size: 30px;
+  margin-top: 5px;
+  top: 0;
+  margin-left: -20px;
+  color: beige;
+  cursor: pointer;
+}
+
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+
+.cart-checkout {
+  width: 100px;
+  height: 40px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cartDetails {
+  justify-content: space-between;
+}
+.deleteCart {
+  border: none;
+  background-color: transparent;
+  color: rgb(240, 123, 123);
+  font-weight: 700;
+  cursor: pointer;
+}
+.deleteCart:hover {
+  color: grey;
+}

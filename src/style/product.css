@@ -1,0 +1,28 @@
+.title-add {
+    display: flex;
+    justify-content: center;
+}
+.img-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.img-add{
+    padding-right: 10px;
+    max-width: auto;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.desc-add{
+    width: 300px;
+    margin: 0 auto;
+    border: 2px;
+}
+
+.storage-add {
+    font-size: 12px;
+}
